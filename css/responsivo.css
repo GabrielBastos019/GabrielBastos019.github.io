@@ -1,0 +1,97 @@
+@media (max-width: 1440px) {
+  .mais .sobre > h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1180px) {
+  .tecnologia {
+    top: -100px;
+  }
+}
+@media (max-width: 900px) {
+  .hero .container .titulo {
+    font-size: 30px;
+  }
+  .hero .image .img {
+    height: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .rodape #job {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .rodape .job h2 {
+    margin-top: 20px;
+  }
+  .rodape .job p {
+    margin-top: 15px;
+  }
+  .rodape .job .btnContato {
+    margin-top: 30px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .mais .sobre > h2 {
+    font-size: 30px;
+  }
+  #hero {
+    height: 130vh;
+  }
+  #ativar {
+    display: block;
+  }
+  .navegacao,
+  #desativar {
+    display: none;
+  }
+  .navegacao ul {
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    right: 20px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px 1px grey;
+    backdrop-filter: blur(10px);
+  }
+  .navegacao .about {
+    margin-top: 20px;
+  }
+  .navegacao .btn {
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+  }
+  .navegacao ul li {
+    margin-left: 50px;
+    margin-top: 20px;
+    max-width: 150px;
+    width: 100%;
+  }
+  .navegacao ul li a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero .image .img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 495px) {
+  .hero .image .img {
+    height: 130px;
+  }
+  .mais .sobre h2 {
+    font-size: 20px;
+  }
+  #cabecalho {
+    padding: 70px 0px;
+  }
+}
