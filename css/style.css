@@ -188,7 +188,7 @@ main {
   height: 300px;
   width: 400px;
 
-  background-color: brown;
+  background-color: rgb(234, 231, 231);
   border: solid 2px black;
   margin-top: 20px;
   border-radius: 30px;
@@ -275,16 +275,16 @@ main {
 .language .fa-square-js {
   color: rgb(255, 191, 0);
 }
-.language .fa-git-alt {
+.fa-git-alt {
   color: rgb(241, 80, 47);
+  font-size: 60px;
 }
-.tools .terminal {
-  font-size: 30px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: black;
-  color: white;
-  margin-right: 10px;
+.tools {
+  display: flex;
+  align-items: center;
+}
+.tools img {
+  height: 60px;
 }
 .tools .fa-github {
   font-size: 55px;
@@ -297,4 +297,11 @@ main {
   right: 0;
   margin-right: 40px;
   display: none;
+}
+
+.embreve {
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
