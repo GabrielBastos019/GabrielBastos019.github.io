@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container" class="container">
+      <div class="inputs">
+        <label
+          >DAY<br /><input
+            id="dia"
+            type="text"
+            placeholder="DD"
+            maxlength="2"
+            required
+        /></label>
+
+        <label
+          >MONTH<br /><input
+            id="mes"
+            type="text"
+            placeholder="MM"
+            maxlength="2"
+            required
+        /></label>
+        <label
+          >YEAR<br/><input
+            id="ano"
+            type="text"
+            placeholder="YYYY"
+            maxlength="4"
+            required
+        /></label>
+        <span class="validation"
+          ><span></span> <span class="mr"></span> <span></span>
+        </span>
+      </div>
+
+      <div class="others">
+        <hr class="linha" />
+        <button class="botao"><img src="src/images/icon-arrow.png" /></button>
+        <hr class="linha display" />
+      </div>
+
+      <div class="values">
+        <p><span class="value">00</span> years</p>
+        <p><span class="value">00</span> months</p>
+        <p><span class="value">00</span> days</p>
+      </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
