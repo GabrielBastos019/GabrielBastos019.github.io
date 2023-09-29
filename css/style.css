@@ -183,16 +183,17 @@ main {
   justify-content: space-evenly;
 }
 .projects .item {
+  height: 270px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 7px 7px 10px 1px grey;
+  transition: all 0.8s;
+  font-size: 40px;
   display: flex;
   align-items: center;
-  height: 300px;
-  width: 400px;
-
   background-color: rgb(234, 231, 231);
-  border: solid 2px black;
   margin-top: 20px;
-  border-radius: 30px;
-  box-shadow: 7px 7px 10px 1px grey;
+  justify-content: center;
 }
 .rodape {
   height: 50vh;
@@ -298,7 +299,24 @@ main {
   margin-right: 40px;
   display: none;
 }
-
+.ageCalculator {
+  transition: all 0.8s;
+}
+.ageCalculator:hover {
+  background-image: url("../video/AnimaçãoAgeCalculator.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sign-up {
+  transition: all 0.8s;
+}
+.sign-up:hover {
+  background-image: url("../video/AnimaçãoValidation.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 135%;
+}
 .embreve {
   font-size: 40px;
   width: 100%;
