@@ -112,8 +112,9 @@ main {
 .experiencia {
   height: 81vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   position: relative;
+  width: 100%;
 }
 .tecnologia {
   position: absolute;
