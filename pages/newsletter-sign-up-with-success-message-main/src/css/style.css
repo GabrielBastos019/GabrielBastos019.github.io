@@ -4,6 +4,7 @@ body {
 
 .container {
   height: 83vh;
+
   max-width: 900px;
   width: 100%;
   position: absolute;
@@ -28,6 +29,7 @@ body {
   width: 400px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .content h1 {
   font-size: 40px;
