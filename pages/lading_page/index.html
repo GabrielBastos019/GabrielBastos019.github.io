@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code with Coffee</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <a href="index.html" class="logo">
+        <h1>Code with Coffee</h1>
+      </a>
+
+      <div class="icons" id="icon">
+        <i id="menu" class="fa-solid fa-bars" onclick="ativar()"></i>
+        <i id="sair" class="fa-solid fa-x" onclick="desativar()"></i>
+      </div>
+
+      <nav id="navegar" class="navegacao">
+        <ul id="lista">
+          <li class="item-lista"><a href="#quem-somos">Quem Somos</a></li>
+          <li class="item-lista"><a href="#onde-estamos">Onde Estamos </a></li>
+          <li class="item-lista"><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="painel">
+        <h2>Aqui o café é só o começo.</h2>
+      </section>
+
+      <section class="secao-com-texto" id="quem-somos">
+        <header>
+          <img src="img/logo-secoes.png" alt="" />
+          <h2>Quem somos</h2>
+        </header>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nam non
+          libero, eligendi accusamus autem totam temporibus veniam facilis modi
+          et repellendus? Temporibus quas ut vitae quo corrupti aut consectetur.
+        </p>
+      </section>
+
+      <section class="ladrilhos">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img
+              id="slider-1"
+              class="item"
+              src="img/6419d581d0427.r_d.2859-1626-2149.jpeg"
+              alt=""
+            />
+            <img
+              id="slider-2"
+              class="item"
+              src="img/cafe-e-graos-de-cafe-orig-1.jpg"
+              alt=""
+            />
+            <img id="slider-3" class="item" src="img/cappuccino2.webp" alt="" />
+            <img
+              id="slider-4"
+              class="item"
+              src="img/Tipos-de-café-1280x720.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="slider-nav">
+            <a href="#slider-1"></a>
+            <a href="#slider-2"></a>
+            <a href="#slider-3"></a>
+            <a href="#slider-4"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao-com-texto onde-estamos" id="onde-estamos">
+        <header>
+          <img src="img/logo-secoes.png" alt="" />
+          <h2>Onde estamos</h2>
+        </header>
+        <p>Avenida Lauro de Freitas, 326 Bahia</p>
+      </section>
+      <section class="contato" id="contato">
+        <div class="texto">
+          <h2>Contato</h2>
+          <address>
+            Telefone: (71) 9-9999-9999 <br />
+            Email: gabrieldev019@gmail.com <br /><br />
+
+            Horário de atendimento: <br />
+            seg a sex - 9h até 18h
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <a href="" class="logo">
+        <img src="img/logo.jpg" alt="logo rodape" />
+      </a>
+
+      <div class="copyright">© 2023 Code with Coffee</div>
+
+      <div class="conteudo-de-baixo">
+        <ul>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#onde-estamos">Onde Estamos </a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="redes-sociais">
+          <a href="https://github.com/GabrielBastos019">
+            <i id="github" class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.instagram.com/gb_1.8">
+            <i id="instagram" class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
