@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container" class="container">
+      <img
+        class="ilustracao"
+        id="ilustracao"
+        src="src/images/illustration-sign-up-desktop.svg"
+        alt=""
+      />
+      <div class="content" id="content">
+        <h1>Fique atualizado!</h1>
+        <p>
+          Junte-se a mais de 60.000 gerentes de produto que recebem atualizações
+          mensais sobre:
+        </p>
+
+        <ul class="list">
+          <li class="itens">
+            Descoberta de produtos e construção do que importa
+          </li>
+          <li class="itens">
+            Medindo para garantir que as atualizações sejam um sucesso
+          </li>
+          <li class="itens">E muito mais!</li>
+        </ul>
+        <form action="">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <span id="error-email"></span>
+            <input
+              placeholder="exemple@gmail.com"
+              class="email-adress"
+              type="email"
+              onblur="validarEmail()"
+              onfocus="redefinirMsg()"
+              id="email"
+              required
+              autocomplete="off"
+            />
+          </div>
+          <button id="botao" class="btn" type="submit">
+            Inscreva-se no boletim informativo mensal
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div id="sucess" class="sucess">
+      <img src="src/images/icon-success.png" alt="Butão de sucesso" />
+      <h2 class="titulo">Obrigado por se escrever!</h2>
+      <p class="comfirmar">
+        Uma comfirmação foi enviada para <strong id="emailDigitado"></strong>.
+        Por favor abra e click no botão para confirmar sua inscrição
+      </p>
+      <button id="btn-sucess" class="btn">Dispensar mensagem</button>
+    </div>
+
+    <script src="src/js/validation.js"></script>
+    <script src="src/js/index.js"></script>
+    
+  </body>
+</html>
