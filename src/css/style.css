@@ -1,0 +1,395 @@
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  padding: 70px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho ul {
+  display: flex;
+}
+
+.cabecalho ul li {
+  margin-right: 40px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about,
+.proje {
+  transition: all 0.5s;
+  color: rgb(87, 81, 81);
+}
+
+.about:hover {
+  color: darkblue;
+}
+
+.proje:hover {
+  color: darkblue;
+}
+
+.logo {
+  margin-left: 40px;
+  font-size: 50px;
+  color: darkblue;
+}
+
+.btn {
+  border: solid 2px darkblue;
+  padding: 10px;
+  color: darkblue;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.hero .titulo {
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(10, 10, 85);
+  margin-top: 80px;
+}
+
+.hero p {
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero div p {
+  font-weight: 400;
+}
+
+
+.hackerBoy {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.aparelhos {
+  width: 100%;
+  max-width: 700px;
+
+}
+
+.mais {
+  background-color: rgb(39, 39, 201);
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.mais .sobre h2 {
+  font-weight: 500;
+  color: white;
+}
+
+.mais .sobre p {
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.sobre {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experiencia {
+  height: 81vh;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: 100%;
+}
+
+.tecnologia{
+  position: absolute;
+  display: block;
+  top: -100px;
+  background-color: white;
+  height: 110vh;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.5px 0.5px 10px 0.1px grey;
+}
+
+.logo2 {
+  font-size: 20px;
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(63, 202, 202);
+  margin-top: 70px;
+}
+
+.limite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 270px;
+}
+
+.limite h2 {
+  margin-top: 40px;
+}
+
+.limite .paragrafo1 {
+  margin-top: 25px;
+}
+
+.limite .paragrafo2 {
+  margin-top: 40px;
+  color: darkblue;
+}
+
+.paragrafo3 {
+  margin-top: 50px;
+  color: darkblue;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.projects {
+  
+  display: grid;
+  grid-template-columns: 400px 400px;
+  margin-top: 70px;
+  margin-bottom: 130px;
+  gap: 20px;
+
+}
+
+.projects .item {
+  transition: all 0.8s;
+  height: 270px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 7px 7px 10px 1px grey;
+  font-size: 40px;
+  background-color: rgb(234, 231, 231);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+
+.ageCalculator:hover {
+  background-image: url("../video/AnimaçãoAgeCalculator.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign-up:hover {
+  background-image: url("../video/AnimaçãoValidation.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 135%;
+}
+.lading-page:hover{
+  background-image: url("../video/Codewithcoffee.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 135%;
+}
+
+.rodape {
+  height: 50vh;
+  background-color: rgb(21, 21, 218);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.rodape .job h2 {
+  font-size: 35px;
+  margin-right: 30px;
+  color: white;
+}
+
+.rodape .job p {
+  margin-right: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.rodape .job {
+  background-color: rgb(17, 17, 77);
+  padding: 30px;
+  display: flex;
+
+  align-items: center;
+  height: 200px;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  position: absolute;
+  top: -100px;
+}
+
+.rodape .job .btnContato {
+  transition: all 0.5s;
+  padding: 20px;
+  color: rgb(28, 113, 224);
+  font-size: 20px;
+  border: solid 3px rgb(28, 113, 224);
+  border-radius: 50px;
+  width: 150px;
+  background-color: rgb(17, 17, 77);
+  cursor: pointer;
+}
+
+.rodape .job .btnContato:hover {
+  background-color: rgb(28, 113, 224);
+  color: white;
+}
+
+.redes-sociais {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+}
+
+.fa-envelope,
+.fa-github-alt,
+.fa-instagram {
+  transition: all 0.5s;
+  font-size: 40px;
+  margin-left: 30px;
+  color: white;
+}
+
+.fa-envelope:hover {
+  color: rgb(0, 48, 120);
+}
+
+.fa-github-alt:hover {
+  color: black;
+}
+
+.fa-instagram:hover {
+  color: rgb(255, 99, 2);
+}
+
+.language svg {
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+.language .fa-html5 {
+  color: rgb(255, 38, 0);
+}
+
+.language .fa-css3-alt {
+  color: rgb(0, 81, 255);
+}
+
+.language .fa-square-js {
+  color: rgb(255, 191, 0);
+}
+
+.fa-git-alt {
+  color: rgb(241, 80, 47);
+  font-size: 60px;
+  margin-right: 8px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+
+}
+
+.tools .fa-github {
+  font-size: 55px;
+}
+
+.fa-bars,
+.fa-x {
+  cursor: pointer;
+  position: absolute;
+  font-size: 30px;
+  right: 0;
+  margin-right: 40px;
+  display: none;
+}
+
+.reverter {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+.politicas {
+  color: rgb(1, 166, 255);
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+
+.politicas:hover {
+  color: rgb(79, 79, 240);
+}

@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+.cabeçalho {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.cabeçalho .logo {
+  background: url("../img/logo.jpg") no-repeat center center;
+  width: 85px;
+  height: 85px;
+}
+.cabeçalho .logo h1 {
+  font-size: 0;
+}
+
+.cabeçalho ul {
+  display: flex;
+}
+.cabeçalho ul li {
+  margin-right: 30px;
+}
+.cabeçalho ul li a {
+  padding: 15px;
+  transition: all 0.5s;
+}
+.painel {
+  background: url("../img/painel.jpg") center center no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.painel h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 50px;
+}
+.secao-com-texto {
+  margin-top: 20px;
+  padding: 153px;
+  text-align: center;
+}
+.secao-com-texto img {
+  margin-bottom: 70px;
+  height: 170px;
+  width: 170px;
+}
+.secao-com-texto h2 {
+  margin-bottom: 37px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.secao-com-texto p {
+  font-size: 18px;
+  width: 702px;
+  color: rgb(168, 168, 168);
+  margin: 0 auto;
+}
+.secao-com-texto.onde-estamos p {
+  font-size: 28px;
+  width: 350px;
+}
+.ladrilhos {
+  padding: 2rem;
+}
+.ladrilhos .item {
+  width: 700px;
+}
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.slider {
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  scroll-snap-type: x mandatory;
+  border-radius: 0.5rem;
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  opacity: 0.75;
+  background-color: #fff;
+  transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+  opacity: 1;
+}
+.contato {
+  background: url("../img/fundo-contato.jpg") center center no-repeat;
+  height: 600px;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+.contato h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.contato address {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.contato .texto {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+.rodape {
+  padding: 50px;
+  background: url("../img/fundo-rodape.jpg") center center no-repeat;
+  font-size: cover;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.rodape ul {
+  display: flex;
+  margin-top: -15px;
+}
+
+.rodape ul li {
+  padding: 15px;
+}
+.rodape ul li a {
+  color: white;
+}
+.rodape ul li a:hover {
+  font-weight: bold;
+}
+.rodape .copyright {
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+
+  margin-left: 50px;
+
+  color: white;
+}
+.rodape .redes-sociais .fa-github,
+.rodape .redes-sociais .fa-instagram {
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+  color: white;
+}
+.redes-sociais {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 50px;
+}
+
+#github {
+  transition: all 0.5s;
+}
+
+#github:hover {
+  background-color: white;
+  border-radius: 60px;
+  color: black;
+}
+#instagram {
+  transition: all 0.5s;
+}
+#instagram:hover {
+  color: rgb(234, 71, 17);
+}
+.back {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#menu,
+#sair {
+  display: none;
+}
+#icon {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  right: 30px;
+}
+#menu,
+#sair {
+  font-size: 40px;
+  position: absolute;
+}

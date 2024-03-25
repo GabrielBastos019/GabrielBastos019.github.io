@@ -1,0 +1,134 @@
+@media (max-width: 1440px) {
+  .mais .sobre>h2 {
+    font-size: 40px;
+  }
+  .projetos h2{
+    margin-top: 180px;
+  }
+ 
+}
+
+@media (max-width: 1180px) {
+  .tecnologia {
+    top: -100px;
+  }
+ 
+}
+
+@media (max-width: 900px) {
+  .hero .container .titulo {
+    font-size: 30px;
+  }
+
+  .hero .image .img {
+    height: 250px;
+  }
+
+  .projects {
+    grid-template-columns: 300px 300px;
+
+  }
+
+
+
+
+}
+@media (max-width: 768px) {
+  .hackerBoy{
+    max-width: 300px;
+  }
+  .rodape #job {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .rodape .job h2 {
+    margin-top: 20px;
+  }
+
+  .rodape .job p {
+    margin-top: 15px;
+  }
+
+  .rodape .job .btnContato {
+    margin-top: 30px;
+  }
+
+  .mais .sobre>h2 {
+    font-size: 30px;
+  }
+
+  #ativar {
+    display: block;
+  }
+
+  .navegacao,
+  #desativar {
+    display: none;
+  }
+
+  .navegacao ul {
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    right: 20px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px 1px grey;
+    backdrop-filter: blur(10px);
+  }
+
+  .navegacao .about {
+    margin-top: 20px;
+  }
+
+  .navegacao .btn {
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+  }
+
+  .navegacao ul li {
+    margin-left: 50px;
+    margin-top: 20px;
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .navegacao ul li a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 620px) {
+  .projects {
+    grid-template-columns: 350px;
+  }
+  .projects .item{
+    margin-top: 20px;
+  }
+  .hackerBoy{
+    max-width: 230px;
+  }
+}
+
+
+@media (max-width: 495px) {
+  .mais{
+    height: 80vh;
+  }
+  
+  .mais .sobre h2 {
+    font-size: 20px;
+  }
+
+  #cabecalho {
+    padding: 70px 0px;
+  }
+  .hackerBoy{
+    max-width: 200px;
+  }
+}
