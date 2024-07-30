@@ -2,17 +2,42 @@
   .mais .sobre>h2 {
     font-size: 40px;
   }
-  .projetos h2{
+
+  .projetos h2 {
     margin-top: 180px;
   }
- 
+
 }
 
 @media (max-width: 1180px) {
   .tecnologia {
     top: -100px;
   }
- 
+}
+
+@media (max-width: 990px) {
+  .rodape #job h2 {
+    font-size: 30px;
+  }
+
+  .rodape #job p {
+    margin-right: -15px;
+  }
+}
+
+@media (max-width: 930px) {
+  .rodape #job h2 {
+    font-size: 25px;
+  }
+
+  .rodape #job p {
+    font-size: 15px;
+  }
+
+  .btnContato {
+    padding: 15px;
+    width: 100px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -29,29 +54,34 @@
 
   }
 
+  .sobre {
+    backdrop-filter: blur(0px);
+    max-width: none;
+    width: 100%;
+    margin-left: 20px;
+  }
 
-
-
+  .mais {
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    background-color: rgb(53, 53, 207);
+  }
 }
+
+@media (max-width: 886px) {
+  .rodape #job h2 {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
-  .hackerBoy{
+  .hackerBoy {
     max-width: 300px;
   }
+
   .rodape #job {
-    flex-direction: column;
-    padding: 30px;
-  }
-
-  .rodape .job h2 {
-    margin-top: 20px;
-  }
-
-  .rodape .job p {
-    margin-top: 15px;
-  }
-
-  .rodape .job .btnContato {
-    margin-top: 30px;
+    text-align: center;
   }
 
   .mais .sobre>h2 {
@@ -103,24 +133,53 @@
   }
 }
 
+@media (max-width:735px) {
+  .rodape .job {
+    flex-direction: column;
+    padding: 30px 10px 30px 10px;
+  }
+
+  .rodape .job .btnContato {
+    margin-left: 15px;
+  }
+
+  .rodape .job h2 {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    font-size: 30px;
+  }
+
+  .rodape .job p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 620px) {
   .projects {
     grid-template-columns: 350px;
   }
-  .projects .item{
+
+  .projects .item {
     margin-top: 20px;
   }
-  .hackerBoy{
+
+  .hackerBoy {
     max-width: 230px;
   }
 }
 
 
 @media (max-width: 495px) {
-  .mais{
+  .rodape h2 {
+    width: 100%;
+
+  }
+
+  .mais {
     height: 80vh;
   }
-  
+
   .mais .sobre h2 {
     font-size: 20px;
   }
@@ -128,7 +187,8 @@
   #cabecalho {
     padding: 70px 0px;
   }
-  .hackerBoy{
+
+  .hackerBoy {
     max-width: 200px;
   }
 }

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-  
+
   <meta name="google-adsense-account" content="ca-pub-9726755323563751">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,8 +28,9 @@
       <i class="fa-solid fa-terminal logo"></i>
     </a>
 
-    <i id="ativar" class="fa-solid fa-bars" onclick="ativar()"></i>
-    <i id="desativar" class="fa-solid fa-x" onclick="desativar()"></i>
+    <i id="ativar" class="fa-solid fa-bars" onclick="ativar(ativar,desativar,navegacao)"></i>
+
+    <i id="desativar" class="fa-solid fa-x" onclick="desativar(ativar,desativar,navegacao)"></i>
 
     <nav id="nav" class="navegacao">
       <ul>
@@ -110,11 +111,11 @@
     <section id="pjs" class="projetos sec">
       <h2>Meus projetos</h2>
       <div class="projects">
-      
 
-        <a href="pages/age-calculator-app-main/index.html">
-          <div class="ageCalculator item">
-            <p class="nameProject">AgeCalculator</p>
+
+        <a href="pages/CalculadoraImc/index.html">
+          <div class="CalculadoraImc item">
+            <p class="nameProject">Calculador de Imc</p>
           </div>
         </a>
 
@@ -124,9 +125,9 @@
           </div>
         </a>
 
-        <a href="pages/lading-page/">
-          <div class="lading-page item">
-            <p class="nameProject">Lading Page</p>
+        <a href="pages/Pagena_de_vendas/index.html">
+          <div class="Pagena_de_vendas item">
+            <p class="nameProject">Pagena de Vendas</p>
           </div>
         </a>
 
@@ -141,14 +142,14 @@
         Ta precisando de um Front-end developer? <br />
         vamos trabalhar juntos!
       </p>
-      <a href="mailto:gabrieldev019@gmail.com">
+      <a href="mailto:gabrielbastosdeoliveiragb@gmail.com">
         <button id="contatobtn" class="btnContato">Contato</button>
       </a>
     </div>
 
 
     <div class="redes-sociais">
-      <a href="mailto:gabrieldev019@gmail.com">
+      <a href="mailto:gabrielbastosdeoliveiragb@gmail.com">
         <i class="fa-regular fa-envelope"></i>
       </a>
 
@@ -159,9 +160,11 @@
       <a href="https://instagram.com/gb_1.8">
         <i class="fa-brands fa-instagram"></i>
       </a> <br> <br>
-      <a class="politicas" href="./pages/politicas-de-privacidade/index.html">Política de Privacidade</a>
     </div>
   </footer>
+
+
+
   <script src="src/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
     integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="

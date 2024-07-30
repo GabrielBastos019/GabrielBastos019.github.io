@@ -98,10 +98,20 @@ main {
 }
 
 .mais {
-  background-color: rgb(39, 39, 201);
+  background-image: url('/src/img/logo.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 98vh;
+
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+
+  -webkit-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.56);
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.56);
+
 
 }
 
@@ -119,12 +129,16 @@ main {
 
 .sobre {
   text-align: center;
-  max-width: 800px;
+  max-width: 500px;
   width: 100%;
+  max-height: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 .experiencia {
@@ -135,14 +149,15 @@ main {
   width: 100%;
 }
 
-.tecnologia{
+.tecnologia {
   position: absolute;
   display: block;
   top: -100px;
   background-color: white;
-  height: 110vh;
+  height: 130vh;
+  max-height: 130%;
   width: 100%;
-  max-width: 380px;
+  max-width: 350px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -173,7 +188,8 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 270px;
+  max-width: 270px;
+  width: 100%;
 }
 
 .limite h2 {
@@ -207,7 +223,7 @@ main {
 }
 
 .projects {
-  
+
   display: grid;
   grid-template-columns: 400px 400px;
   margin-top: 70px;
@@ -234,58 +250,61 @@ main {
 }
 
 
-.ageCalculator:hover {
-  background-image: url("../video/AnimaçãoAgeCalculator.gif");
+.CalculadoraImc:hover {
+  background-image: url("../video/GifInputAltura.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: scale(0.94);
 }
 
 .sign-up:hover {
   background-image: url("../video/AnimaçãoValidation.gif");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 135%;
+  background-size: cover;
+  transform: scale(0.94);
+
 }
-.lading-page:hover{
-  background-image: url("../video/Codewithcoffee.gif");
+
+.Pagena_de_vendas:hover {
+  background-image: url("../video/PagenaDeVendas.gif");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 135%;
+  background-size: cover;
+  transform: scale(0.94);
 }
 
 .rodape {
-  height: 50vh;
   background-color: rgb(21, 21, 218);
   display: flex;
   justify-content: center;
-  position: relative;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 10px 40px 10px;
 }
 
 .rodape .job h2 {
   font-size: 35px;
-  margin-right: 30px;
+  margin-right: 40px;
   color: white;
 }
 
 .rodape .job p {
-  margin-right: 30px;
   font-size: 20px;
   color: white;
 }
 
 .rodape .job {
   background-color: rgb(17, 17, 77);
-  padding: 30px;
-  display: flex;
-
-  align-items: center;
-  height: 200px;
-  text-align: center;
-  justify-content: space-evenly;
   border-radius: 30px;
-  position: absolute;
-  top: -100px;
+  width: 100%;
+  max-width: 90%;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 10px 60px 10px;
 }
 
 .rodape .job .btnContato {
@@ -298,6 +317,7 @@ main {
   width: 150px;
   background-color: rgb(17, 17, 77);
   cursor: pointer;
+  margin-left: 30px;
 }
 
 .rodape .job .btnContato:hover {
@@ -305,11 +325,6 @@ main {
   color: white;
 }
 
-.redes-sociais {
-  position: absolute;
-  bottom: 30px;
-  text-align: center;
-}
 
 .fa-envelope,
 .fa-github-alt,
@@ -383,13 +398,6 @@ main {
   height: 20px;
 }
 
-.politicas {
-  color: rgb(1, 166, 255);
-  margin-top: 10px;
-  margin-left: 30px;
-}
-
-
-.politicas:hover {
-  color: rgb(79, 79, 240);
+.redes-sociais {
+  margin-top: 30px;
 }

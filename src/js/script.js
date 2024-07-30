@@ -15,11 +15,12 @@ var divs = document.querySelectorAll(".item");
 var paragrafos = document.querySelectorAll(".nameProject");
 
 
+
 divs[0].addEventListener("mouseenter", () => {
   paragrafos[0].innerText = "";
 });
 divs[0].addEventListener("mouseout", () => {
-  paragrafos[0].innerHTML = "AgeCalculator";
+  paragrafos[0].innerHTML = "Calculadora de Imc";
 });
 
 divs[1].addEventListener("mouseenter", () => {
@@ -34,5 +35,5 @@ divs[2].addEventListener("mouseenter", () => {
   paragrafos[2].innerHTML = "";
 });
 divs[2].addEventListener("mouseout", () => {
-  paragrafos[2].innerHTML = "Lading Page";
+  paragrafos[2].innerHTML = "Pagena de Vendas";
 });

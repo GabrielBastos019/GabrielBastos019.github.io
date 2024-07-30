@@ -1,9 +1,11 @@
 var btn = document.querySelector("#botao");
-var container = document.querySelector("#container");
 var input = document.querySelector("#email");
-var sucess = document.querySelector(".sucess");
-var emailDigitado = document.querySelector("#emailDigitado");
 
+
+/**
+ *    Evento irá analisar se o input está validado.
+ Se estiver, chamará a função aparecer.
+ */
 btn.addEventListener("click", () => {
   if (input.validity.valid) {
     aparecer()
@@ -12,6 +14,8 @@ btn.addEventListener("click", () => {
   }
 });
 
+
+/*Essa função ira mostrar a tela de sucesso*/
 function aparecer() {
   var container = document.querySelector("#container");
   var input = document.querySelector("#email");
@@ -25,13 +29,13 @@ function aparecer() {
   input.style.borderColor = "grey";
   input.style.backgroundColor = "white";
 }
-
+/*Esse Evento fara a tela de sucesso desaparecer e resetar o valor do input*/
 var btnSucess = document.querySelector("#btn-sucess");
-
 btnSucess.addEventListener("click", () => {
   if (container.style.display == "none") {
     sucess.style.display = "none";
     container.style.display = "flex";
+    window.location.reload()
   } else {
     return;
   }
