@@ -35,5 +35,5 @@ divs[2].addEventListener("mouseenter", () => {
   paragrafos[2].innerHTML = "";
 });
 divs[2].addEventListener("mouseout", () => {
-  paragrafos[2].innerHTML = "Pagena de Vendas";
+  paragrafos[2].innerHTML = "Calculadora";
 });

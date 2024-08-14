@@ -267,8 +267,8 @@ main {
 
 }
 
-.Pagena_de_vendas:hover {
-  background-image: url("../video/PagenaDeVendas.gif");
+.calculadora:hover {
+  background-image: url("../video/Calculadora.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
