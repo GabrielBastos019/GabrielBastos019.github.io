@@ -67,6 +67,7 @@ function show(imc, nome, msg) {
 //Função que valida os dados
 function validacao(nome, altura, peso, msg, spans) {
     var imc = peso.value / (altura.value * altura.value)
+
     if (altura.value == "" || altura.value < 0) {
         spans[0].classList.remove("display")
         altura.classList.add("negativo")
