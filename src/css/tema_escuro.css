@@ -15,7 +15,7 @@
 
 .ball {
     position: absolute;
-    background-color:black;
+    background-color: black;
     height: 20px;
     width: 20px;
     border-radius: 20px;
@@ -40,30 +40,33 @@
 .backgorund_pagena {
     background-color: #38444d !important;
 }
+
 /* cor logo */
 .cor_branca {
     color: white !important;
 }
 
 /* estilos do botão fale comigo  */
-.btn-active{
+.btn-active {
     border: solid 2px white !important;
     color: white !important;
     background-color: inherit !important;
 }
-.btn-active:hover{
+
+.btn-active:hover {
     background-color: white !important;
     color: black !important;
 }
 
 /* Cor da aba tecnologia e do background dos projetos */
-.scarlete{
+.scarlete {
     background-color: slategray !important;
 }
+
 /* 
 Estilo da ul(lista)
 */
-.temaLista{
+.temaLista {
     box-shadow: rgba(0, 0, 0, 0) !important;
     border: solid 2px white;
 }

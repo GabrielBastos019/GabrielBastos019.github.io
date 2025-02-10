@@ -2,7 +2,7 @@ var menu = document.getElementsByTagName("svg");
 var navegacao = document.getElementById("nav");
 
 
-function ativarMenu() {  
+function ativarMenu() {
   navegacao.classList.toggle("aparecer")
 }
 
@@ -82,9 +82,22 @@ function aplicarTema() {
   footer.querySelector(".job").style.backgroundColor = "inherit"
   footer.querySelector(".job").style.border = "solid 2px white"
   btn_contato.classList.add("btn-active")
-  
   menu[3].classList.add("cor_branca")
-  lista.classList.add("temaLista")
+
+
+  // Capiturando tamanho da tela e com base nisso mudando estilo
+  window.addEventListener("resize", () => {
+    var larguraTela = window.innerWidth
+
+    if (larguraTela <= 768) {
+      lista.classList.add("temaLista")
+    } else if (larguraTela >= 768) {
+      lista.classList.remove("temaLista")
+
+    }
+  })
+
+
 }
 function removerTema() {
   document.body.classList.remove("backgorund_pagena")
@@ -121,6 +134,6 @@ function removerTema() {
   footer.querySelector(".job").style.backgroundColor = "rgb(17, 17, 77)"
   footer.querySelector(".job").style.border = "inherit"
   btn_contato.classList.remove("btn-active")
-  
+
   menu[3].classList.remove("cor_branca")
 }
