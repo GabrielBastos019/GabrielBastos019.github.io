@@ -423,7 +423,7 @@ main {
   margin-top: 30px;
 }
 
-.componentes {
+.componentes{
   display: flex;
   width: 100%;
   max-width: 74%;
@@ -433,4 +433,7 @@ main {
 /* Estilo feito para fazer nome dos projetos desaparecerem */
 .desaparecer{
   display: none;
+}
+.aparecer{
+  display: block !important;
 }

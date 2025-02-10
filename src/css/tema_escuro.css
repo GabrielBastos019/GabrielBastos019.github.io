@@ -60,3 +60,10 @@
 .scarlete{
     background-color: slategray !important;
 }
+/* 
+Estilo da ul(lista)
+*/
+.temaLista{
+    box-shadow: rgba(0, 0, 0, 0) !important;
+    border: solid 2px white;
+}

@@ -76,6 +76,12 @@
 }
 
 @media (max-width: 768px) {
+  .componentes{
+    max-width: 50%;
+  }
+  .div-tema{
+    left: 30px;
+  }
   .hackerBoy {
     max-width: 300px;
   }
@@ -88,12 +94,11 @@
     font-size: 30px;
   }
 
-  #ativar {
+  .ativar {
     display: block;
   }
 
-  .navegacao,
-  #desativar {
+  .navegacao{
     display: none;
   }
 

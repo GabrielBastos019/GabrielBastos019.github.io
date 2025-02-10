@@ -2,15 +2,8 @@ var menu = document.getElementsByTagName("svg");
 var navegacao = document.getElementById("nav");
 
 
-function ativar() {  
-  menu[3].style.display = "none";
-  menu[4].style.display = "block";
-  navegacao.style.display = "block";
-}
- function desativar() {
-   menu[3].style.display = "block";
-   menu[4].style.display = "none";
-   navegacao.style.display = "none";
+function ativarMenu() {  
+  navegacao.classList.toggle("aparecer")
 }
 
 //Elementos do botão de tema
@@ -42,6 +35,8 @@ var projetos = container_projetos.querySelectorAll(".item")
 var sobreMim = document.querySelector(".mais")
 //Nomes dos projetos
 var nomesProjetos = document.querySelectorAll(".nameProject")
+//Adicionando o Ul(Lista)
+var lista = document.querySelector(".lista")
 
 
 function tema() {
@@ -87,6 +82,9 @@ function aplicarTema() {
   footer.querySelector(".job").style.backgroundColor = "inherit"
   footer.querySelector(".job").style.border = "solid 2px white"
   btn_contato.classList.add("btn-active")
+  
+  menu[3].classList.add("cor_branca")
+  lista.classList.add("temaLista")
 }
 function removerTema() {
   document.body.classList.remove("backgorund_pagena")
@@ -123,4 +121,6 @@ function removerTema() {
   footer.querySelector(".job").style.backgroundColor = "rgb(17, 17, 77)"
   footer.querySelector(".job").style.border = "inherit"
   btn_contato.classList.remove("btn-active")
+  
+  menu[3].classList.remove("cor_branca")
 }
