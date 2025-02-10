@@ -2,8 +2,6 @@
 <html lang="pt-br">
 
 <head>
-
-  <meta name="google-adsense-account" content="ca-pub-9726755323563751">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -20,58 +18,60 @@
   <link rel="stylesheet" href="src/css/style.css" />
   <link rel="stylesheet" href="src/css/responsivo.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
+  <link rel="stylesheet" href="src/css/tema_escuro.css">
+  <link rel="shortcut icon" href="src/img/terminal.webp" type="image/x-icon">
 </head>
 
 <body>
   <header id="cabecalho" class="cabecalho">
-    <a href="#">
+    <a href="#" class="reload">
       <i class="fa-solid fa-terminal logo"></i>
     </a>
+    <div class="componentes">
 
-    <i id="ativar" class="fa-solid fa-bars" onclick="ativar(ativar,desativar,navegacao)"></i>
+      <div class="div-tema" onclick="tema()">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
+        <div class="ball"></div>
+      </div>
 
-    <i id="desativar" class="fa-solid fa-x" onclick="desativar(ativar,desativar,navegacao)"></i>
+      <i id="ativar" class="fa-solid fa-bars" onclick="ativar()"></i>
 
-    <nav id="nav" class="navegacao">
-      <ul>
-        <li><a class="proje" href="#pjs">Projetos</a></li>
-        <li><a class="about" href="#about">Sobre mim</a></li>
-        <li>
-          <a href="mailto: gabrielbastosdeoliveiragb@gmail.com" class="btn">Fale comigo</a>
-        </li>
-      </ul>
-    </nav>
+      <i id="desativar" class="fa-solid fa-x" onclick="desativar()"></i>
+
+      <nav id="nav" class="navegacao">
+        <ul>
+          <li><a class="proje" href="#pjs">Projetos</a></li>
+          <li><a class="about" href="#about">Sobre mim</a></li>
+          <li>
+            <a href="#job" class="btn">Fale comigo</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section id="hero" class="hero">
       <div class="container">
         <h1 class="titulo">Desenvolvedor Frontend</h1>
-        <p>
+        <p class="paragrafo-titulo">
           Eu projeto e codifico coisas lindamente simples e amo o que faço.
         </p>
       </div>
 
-      <img class="hackerBoy" src="src/img/portifolio_img.png" alt="Jovem progamando" />
-
-
-
+      <img class="hackerBoy" src="src/img/portifolio_img-removebg-preview.png" alt="Jovem progamando" />
       <img class="aparelhos" src="src/img/hero-devices.svg" alt="aparelhos" />
-
-
-
-
     </section>
 
     <section id="about" class="mais">
       <div class="sobre">
-        <h2>Olá, sou o Gabriel Prazer em conhecê-lo.</h2>
+        <h2>Olá, meu nome é Gabriel</h2>
         <p>
-          Desde que comecei a aprender progamação me senti muito confuso em
-          qual areá seguir, foi quando experimentei o front-end foi onde me
-          encontrei,desde então venho aprimorando minhas tecnicas como
-          desenvolvedor web. Sou silenciosamente confiante, naturalmente
-          curioso e sempre trabalhando para melhorar minhas habilidades.
+          Sou um desenvolvedor front-end focado na carreira.
+          Trabalho principalmente com JavaScript e estou estudando frameworks modernos como React. Tenho paixão por
+          criar interfaces de usuário interativas e responsivas. Estou sempre em busca de novas oportunidades e desafios
+          para crescer profissionalmente e contribuir para projetos inovadores. Estou disponível para colaborações.
         </p>
       </div>
 
@@ -109,19 +109,13 @@
     </section>
 
     <section id="pjs" class="projetos sec">
-      <h2>Meus projetos</h2>
+      <h2 class="titulo-projetos">Meus projetos</h2>
       <div class="projects">
 
 
         <a href="pages/CalculadoraImc/index.html">
           <div class="CalculadoraImc item">
             <p class="nameProject">Calculador de Imc</p>
-          </div>
-        </a>
-
-        <a href="pages/newsletter-sign-up-with-success-message-main/index.html">
-          <div class="sign-up item">
-            <p class="nameProject">Sign-up</p>
           </div>
         </a>
 
@@ -161,9 +155,8 @@
         <i class="fa-brands fa-instagram"></i>
       </a> <br> <br>
     </div>
+
   </footer>
-
-
 
   <script src="src/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"

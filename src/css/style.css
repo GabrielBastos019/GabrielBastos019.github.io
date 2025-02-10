@@ -29,21 +29,20 @@ main {
 .about,
 .proje {
   transition: all 0.5s;
-  color: rgb(87, 81, 81);
+  color: black;
 }
 
 .about:hover {
-  color: darkblue;
+  color: rgb(21, 21, 218);
 }
 
 .proje:hover {
-  color: darkblue;
+  color: rgb(21, 21, 218);
 }
 
 .logo {
   margin-left: 40px;
   font-size: 50px;
-  color: darkblue;
 }
 
 .btn {
@@ -52,6 +51,9 @@ main {
   color: darkblue;
   border-radius: 30px;
   transition: all 0.5s;
+  width: 100%;
+  max-width: 130px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -136,8 +138,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  backdrop-filter: blur(5px);
-  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
   margin-right: 20px;
 }
 
@@ -233,13 +235,13 @@ main {
 }
 
 .projects .item {
-  transition: all 0.8s;
+  transition: all 0.5s;
   height: 270px;
   max-width: 400px;
   width: 100%;
-  box-shadow: 7px 7px 10px 1px grey;
   font-size: 40px;
   background-color: rgb(234, 231, 231);
+  box-shadow: 7px 7px 10px 1px grey;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
@@ -249,6 +251,10 @@ main {
   border-radius: 15px;
 }
 
+.projects .item:hover {
+  color: rgba(240, 248, 255, 0);
+
+}
 
 .CalculadoraImc:hover {
   background-image: url("../video/GifInputAltura.gif");
@@ -256,15 +262,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(0.94);
-}
-
-.sign-up:hover {
-  background-image: url("../video/AnimaçãoValidation.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(0.94);
-
 }
 
 .calculadora:hover {
@@ -398,6 +395,42 @@ main {
   height: 20px;
 }
 
+.linha1, .linha2, .linha3 {
+  position: absolute;
+  height: 13px;
+  border: solid 2px yellow;
+  bottom: 36px;
+}
+
+.linha1 {
+  right: 30px;
+  top: -13px;
+  transform: rotate(-30deg);
+}
+
+.linha2 {
+  left: 10px;
+  top: -20px;
+}
+
+.linha3 {
+  left: 30px;
+  top: -13px;
+  transform: rotate(30deg);
+}
+
 .redes-sociais {
   margin-top: 30px;
+}
+
+.componentes {
+  display: flex;
+  width: 100%;
+  max-width: 74%;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Estilo feito para fazer nome dos projetos desaparecerem */
+.desaparecer{
+  display: none;
 }
