@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>Mata Mosquito</title>
+</head>
+
+<body onresize="redicionamentoDeTela()">
+
+
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="src/img/coracao_cheio.png">
+            <img id="v2" src="src/img/coracao_cheio.png">
+            <img id="v3" src="src/img/coracao_cheio.png">
+        </div>
+        <div class="cronometro">
+            Tempo Restante: <span id="cronometro"></span>
+        </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+    <script>
+        document.getElementById("cronometro").innerHTML = tempo
+        posicaoRandonica()
+    </script>
+</body>
+
+</html>

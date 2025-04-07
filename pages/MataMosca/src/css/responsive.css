@@ -1,0 +1,36 @@
+@media (max-width:810px) {
+    body {
+        background-size: auto;
+    }
+
+    .game {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .game {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:550px) {
+
+    .img-over {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:450px) {
+
+    .img-over {
+        margin-top: 100px;
+    }
+}
+@media (max-width:350px) {
+
+    .img-over {
+        margin-top: 150px;
+    }
+}

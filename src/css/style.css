@@ -271,6 +271,14 @@ main {
   background-size: cover;
   transform: scale(0.94);
 }
+.MataMosca:hover{
+  background-image: url("../video/inicial_mata_mosca.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(0.94);
+
+}
 
 .rodape {
   background-color: rgb(21, 21, 218);
@@ -435,7 +443,6 @@ main {
 .desaparecer {
   display: none;
 }
-
 .aparecer {
   display: block !important;
 }
